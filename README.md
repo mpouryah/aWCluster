@@ -1,5 +1,5 @@
 # aWCluster
-aWCluster is a novel network-based integration method of multiomics data as well as a clustering technique founded on the Wasserstein (Earth Mover's) distance from the theory of optimal mass transport.  https://www.biorxiv.org/content/10.1101/558700v1.
+aWCluster is a novel network-based integration method of multiomics data as well as a clustering technique founded on the Wasserstein (Earth Mover's) distance from the theory of optimal mass transport as presenetd in https://www.biorxiv.org/content/10.1101/558700v1.
 
 
 
