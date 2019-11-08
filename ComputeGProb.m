@@ -15,16 +15,3 @@ Node_Prob = Node_weights./S_copy;
 
 
 
-% Node_Prob = zeros(size(Node_weights));
-% 
-% 
-% for k= 1:l
-% for i = 1:n
-%     indj = find(Adj(i,:) ~= 0);
-%     d_x = sum(Node_weights(indj));
-%     
-%     if d_x > 0    
-%         Node_Prob(i,k) = Node_weights(i,k)/d_x;
-%     end
-% end
-% end
