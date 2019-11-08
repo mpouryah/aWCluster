@@ -56,26 +56,10 @@ Distance_matrix_row= zeros(1,l);
     drho=rho0-rho1;
     drho=drho-mean(drho);
     
-    %N=m;
-    
-%     cvx_begin
-% variable up(N)
-% variable un(N)
-% minimize sum(up+un)
-% up>=0;
-% un>=0;
-% u=up-un;
-% drho-D*u==zeros(N,1);
-% cvx_end
-%  
-% 
-% distanceM(i,j)=sum(up+un);
-%  distanceM(j,i)=distanceM(i,j);
+
   
 Distance_matrix_row(j)=dist_cvx(drho,D,m);
 
-
-   % distanceM(j,i)=distanceM(i,j);
     
      
     end
