@@ -15,5 +15,5 @@ Invarinat_3: creates the integative measure of (mRNA, CNA and Methylation) for a
   ```
   Install CVX: http://cvxr.com/cvx/doc/install.html prior to running this function.
   ```
- 2.  Hier_clustering build a hierachical clustering of the samples using the Wasserstein distances created in "1".
+ 2.  Hier_clustering build a hierachical clustering of the samples using the Wasserstein distances created in [1].
   
