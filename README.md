@@ -9,7 +9,7 @@ In this repository:
 
 1. EMD_All_Three finds the pairwise Wasserstein distances between samples. 
 ```
-Invarinat_3: creates the integative measure of (mRNA, CNA and Methylation) for a given sample
+Invarinat_3: creates the integative measure of (mRNA, CNA and Methylation) for a given sample.
 ```  
   EMD_cvxOpt: the main function for calculating the Wasserstein distance 
   ```
